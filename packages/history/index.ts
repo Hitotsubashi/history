@@ -366,11 +366,13 @@ export function createBrowserHistory(
     let { pathname, search, hash } = window.location;
     let state = globalHistory.state || {};
     return [
+      // TODO
       state.idx,
       readOnly<Location>({
         pathname,
         search,
         hash,
+        // TODO
         state: state.usr || null,
         key: state.key || 'default'
       })
