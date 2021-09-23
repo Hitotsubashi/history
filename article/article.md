@@ -4,3 +4,8 @@
 
 ## 作用
 
+关于`history`的作用，可以引述官方的介绍来说明：
+
+> `history`可以令你更轻松地管理在`JavaScript`环境下运行的会话历史（`session history`）。一个`history`实例抽象了各种环境中的差异，且提供了最简洁的`API`去管理会话中的历史栈（`history stack`）、导航（`navigate`）以及持久化的状态（`persist state`）。
+
+``
